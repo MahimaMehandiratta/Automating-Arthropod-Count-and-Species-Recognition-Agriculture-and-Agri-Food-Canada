@@ -1,0 +1,12 @@
+opencv-python-headless
+streamlit
+torch
+sahi
+torchvision
+pillow
+yolov8
+ultralytics
+pyrebase4
+numpy
+pandas
+
