@@ -32,24 +32,32 @@ Steps:
 **Models Used**
 
 YOLOv8 Variants
+
 YOLOv8x:
 - High precision, suitable for detailed analysis but computationally intensive.
 - Best for accuracy, slower inference time.
+  
 YOLOv8n:
 - Fastest model, lower precision, ideal for real-time applications.
 - Best for speed, lower accuracy.
+
 YOLOv8-P2:
 - Balanced precision and recall, suitable for detecting small objects.
 - Middle ground between precision and speed.
+ 
 Integration and Optimization:
 - Hybrid approach combining YOLOv8n and YOLOv8-P2 for enhanced versatility and performance.
-- Comprehensive Workflow Integration
+
+**Comprehensive Workflow Integration**
+
 Training and Model Configuration (SAHI.ipynb):
 - Configuring and training YOLOv8 models.
 - Validating models against a separate test set.
+  
 Detection and Counting Script (app_NMS_SAHI.py):
 - Detecting arthropods on new images.
 - Logging detailed detection results.
+  
 Application Deployment (streamlit.ipynb):
 - User-friendly GUI for uploading images and receiving detection results in real-time.
 
