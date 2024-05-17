@@ -31,8 +31,6 @@ Steps:
 
 **Models Used**
 
-YOLOv8 Variants
-
 YOLOv8x:
 - High precision, suitable for detailed analysis but computationally intensive.
 - Best for accuracy, slower inference time.
@@ -50,15 +48,15 @@ Integration and Optimization:
 
 **Comprehensive Workflow Integration**
 
-Training and Model Configuration (SAHI.ipynb):
+Training and Model Configuration Jupyter Notebook:
 - Configuring and training YOLOv8 models.
 - Validating models against a separate test set.
   
-Detection and Counting Script (app_NMS_SAHI.py):
+Detection and Counting Python Script:
 - Detecting arthropods on new images.
 - Logging detailed detection results.
   
-Application Deployment (streamlit.ipynb):
+Application Deployment:
 - User-friendly GUI for uploading images and receiving detection results in real-time.
 
 **Outcomes and Insights**
@@ -66,14 +64,4 @@ Application Deployment (streamlit.ipynb):
 - Accuracy and Consistency: Provided precise counts and species identifications, minimizing human error.
 - Valuable Insights: Generated rich, reliable data for ecological studies and pest management strategies.
 
-**Challenges**
 
-- Computational Power: Limited GPU resources required algorithm optimization and scaling.
-- Algorithm Refinement: Addressing class imbalance and improving feature extraction for diverse arthropod species.
-
-**Lessons Learned**
-- Continuous Refinement: Importance of iterative improvement for algorithm precision.
-- Understanding Needs: Aligning project goals with agricultural sector requirements.
-- Data Management: Ensuring robust data management for reliable machine learning.
-- Tool Integration: Leveraging various tools for an optimal workflow.
-- Algorithm Efficiency: Balancing precision with performance for real-world scenarios.
